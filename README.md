@@ -180,6 +180,13 @@ python -m bot.main
 - **비밀번호 해싱**: bcrypt를 사용한 안전한 비밀번호 해싱
 - **JWT 인증**: 토큰 기반 인증으로 세션 관리
 - **사용 로그**: 모든 중요 작업에 대한 감사 로그 기록
+- **보안 업데이트**: 모든 의존성이 최신 보안 패치 버전으로 업데이트됨 (2026-02-16)
+  - cryptography 46.0.5 (취약점 수정)
+  - fastapi 0.115.6 (ReDoS 취약점 수정)
+  - python-multipart 0.0.22 (파일 쓰기 취약점 수정)
+  - next 14.2.35 (여러 보안 취약점 수정)
+
+**보안 권장사항**: 정기적으로 `SECURITY.md` 파일을 확인하여 보안 업데이트를 적용하세요.
 
 ### 기여하기
 
@@ -372,6 +379,13 @@ Key endpoints:
 - **Password Hashing**: Secure password hashing with bcrypt
 - **JWT Authentication**: Token-based authentication for session management
 - **Usage Logging**: Audit logs for all critical operations
+- **Security Updates**: All dependencies updated to latest secure versions (2026-02-16)
+  - cryptography 46.0.5 (vulnerability fixes)
+  - fastapi 0.115.6 (ReDoS vulnerability fix)
+  - python-multipart 0.0.22 (file write vulnerability fix)
+  - next 14.2.35 (multiple security vulnerability fixes)
+
+**Security Recommendation**: Regularly check `SECURITY.md` file for security updates.
 
 ### Contributing
 
