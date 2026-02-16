@@ -184,7 +184,7 @@ python -m bot.main
   - cryptography 46.0.5 (취약점 수정)
   - fastapi 0.115.6 (ReDoS 취약점 수정)
   - python-multipart 0.0.22 (파일 쓰기 취약점 수정)
-  - next 15.2.3 (DoS, 캐시 중독, 인증 우회 취약점 수정)
+  - next 15.2.9 (DoS, 캐시 중독, 인증 우회, RCE 취약점 수정)
   - react 19.0.0 (Next.js 15 필수 요구사항)
 
 **보안 권장사항**: 정기적으로 `SECURITY.md` 파일을 확인하여 보안 업데이트를 적용하세요.
@@ -384,7 +384,7 @@ Key endpoints:
   - cryptography 46.0.5 (vulnerability fixes)
   - fastapi 0.115.6 (ReDoS vulnerability fix)
   - python-multipart 0.0.22 (file write vulnerability fix)
-  - next 15.2.3 (DoS, cache poisoning, auth bypass fixes)
+  - next 15.2.9 (DoS, cache poisoning, auth bypass, RCE fixes)
   - react 19.0.0 (required for Next.js 15)
 
 **Security Recommendation**: Regularly check `SECURITY.md` file for security updates.
