@@ -5,7 +5,7 @@ import hashlib
 
 
 class EncryptionService:
-    """Service for encrypting/decrypting sensitive data using Fernet"""
+    """Service for encrypting/decrypting sensitive data using Fernet (authenticated encryption with AES-128 + HMAC-SHA256)"""
     
     def __init__(self):
         # Derive a valid Fernet key from the encryption key in settings
