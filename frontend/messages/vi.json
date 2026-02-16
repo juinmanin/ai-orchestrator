@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "accounts": "Accounts",
+    "guides": "Guides",
+    "settings": "Settings",
+    "login": "Login",
+    "register": "Sign Up",
+    "logout": "Logout"
+  },
+  "hero": {
+    "title": "Never Waste Your AI Quotas",
+    "subtitle": "Smart orchestrator to maximize your free AI platform quotas",
+    "cta": "Get Started Free",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Maximize your AI platform quotas",
+    "dashboard": {
+      "title": "Quota Dashboard",
+      "description": "View all your AI platform quotas at a glance"
+    },
+    "telegram": {
+      "title": "Telegram Notifications",
+      "description": "Get real-time alerts for resets, warnings, and recommendations"
+    },
+    "smart": {
+      "title": "Smart Recommendations",
+      "description": "AI-powered platform recommendations for optimal usage"
+    },
+    "secure": {
+      "title": "Secure Management",
+      "description": "API key encryption, transparent logs, disconnect anytime"
+    },
+    "multilingual": {
+      "title": "9 Languages",
+      "description": "Use anywhere in the world"
+    },
+    "guides": {
+      "title": "Setup Guides",
+      "description": "Step-by-step guides for each platform"
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Get started in 4 easy steps",
+    "step1": {
+      "title": "Sign Up",
+      "description": "Create your account with a simple email"
+    },
+    "step2": {
+      "title": "Connect Accounts",
+      "description": "Securely add your AI platform API keys"
+    },
+    "step3": {
+      "title": "Monitor Quotas",
+      "description": "View real-time quota usage in your dashboard"
+    },
+    "step4": {
+      "title": "Receive Alerts",
+      "description": "Get Telegram notifications for optimal usage"
+    }
+  },
+  "platforms": {
+    "title": "Supported Platforms",
+    "subtitle": "Manage free quotas for major AI platforms",
+    "more": "More platforms coming soon"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": {
+      "question": "Are my API keys safe?",
+      "answer": "Yes, all API keys are securely stored using Fernet encryption. You can disconnect anytime, and all encrypted data will be completely deleted."
+    },
+    "q2": {
+      "question": "Is this against platform terms of service?",
+      "answer": "No. We use a user-owned account model. You create your own accounts on each AI platform and connect them here for management. We never create proxy accounts."
+    },
+    "q3": {
+      "question": "Is it free?",
+      "answer": "Yes, the MVP version is completely free. We may add premium features in the future, but core functionality will always be free."
+    },
+    "q4": {
+      "question": "How do I connect Telegram?",
+      "answer": "1. Find our bot on Telegram and run /start. 2. Copy the connection code provided. 3. Enter it in Settings page."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Open Crow. All rights reserved.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "contact": "Contact"
+  },
+  "dashboard": {
+    "title": "Quota Dashboard",
+    "overview": "Overview",
+    "totalPlatforms": "Total Platforms",
+    "connectedAccounts": "Connected Accounts",
+    "overallUsage": "Overall Usage",
+    "recommendations": "Recommendations",
+    "schedule": "Today's Schedule",
+    "noAccounts": "No accounts connected. Please connect your AI platform accounts from the Accounts page."
+  },
+  "accounts": {
+    "title": "Account Management",
+    "addAccount": "Add Account",
+    "platform": "Platform",
+    "status": "Status",
+    "quota": "Quota",
+    "actions": "Actions",
+    "verify": "Verify",
+    "delete": "Delete",
+    "verified": "Verified",
+    "notVerified": "Not Verified",
+    "modalTitle": "Add New Account",
+    "selectPlatform": "Select Platform",
+    "apiKey": "API Key",
+    "apiKeyPlaceholder": "Enter your API key",
+    "accountIdentifier": "Account Identifier (optional)",
+    "accountIdentifierPlaceholder": "Email or username",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "guides": {
+    "title": "Platform Guides",
+    "subtitle": "Step-by-step guides for creating AI platform accounts",
+    "selectPlatform": "Select a platform",
+    "steps": "Setup Steps",
+    "tips": "Useful Tips",
+    "quotaInfo": "Quota Information",
+    "visit": "Visit",
+    "apiDocs": "API Documentation"
+  },
+  "settings": {
+    "title": "Settings",
+    "telegram": {
+      "title": "Telegram Integration",
+      "connected": "Connected",
+      "notConnected": "Not Connected",
+      "chatId": "Chat ID",
+      "instructions": "Run /start on the Telegram bot and enter the provided code"
+    },
+    "language": {
+      "title": "Language",
+      "select": "Select Language"
+    },
+    "timezone": {
+      "title": "Timezone",
+      "select": "Select Timezone"
+    },
+    "notifications": {
+      "title": "Notification Settings",
+      "quotaAlerts": "Quota Reset Alerts",
+      "usageWarnings": "Usage Warnings",
+      "dailySummary": "Daily Summary",
+      "weeklyReport": "Weekly Report"
+    },
+    "save": "Save"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "confirm": "Confirm",
+    "back": "Back"
+  }
+}
