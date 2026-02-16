@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "home": "홈",
+    "dashboard": "대시보드",
+    "accounts": "계정 관리",
+    "guides": "가이드",
+    "settings": "설정",
+    "login": "로그인",
+    "register": "회원가입",
+    "logout": "로그아웃"
+  },
+  "hero": {
+    "title": "AI 쿼터를 낭비하지 마세요",
+    "subtitle": "무료 AI 쿼터를 100% 활용하는 스마트 오케스트레이터",
+    "cta": "무료로 시작하기",
+    "learnMore": "더 알아보기"
+  },
+  "features": {
+    "title": "주요 기능",
+    "subtitle": "AI 플랫폼 쿼터를 최대한 활용하세요",
+    "dashboard": {
+      "title": "쿼터 대시보드",
+      "description": "모든 AI 플랫폼 쿼터를 한눈에 확인하세요"
+    },
+    "telegram": {
+      "title": "텔레그램 알림",
+      "description": "리셋 임박, 소진 경고, 추천을 실시간으로 받으세요"
+    },
+    "smart": {
+      "title": "스마트 추천",
+      "description": "AI가 최적 사용 플랫폼을 추천합니다"
+    },
+    "secure": {
+      "title": "안전한 관리",
+      "description": "API 키 암호화, 투명 로그, 언제든 해제 가능"
+    },
+    "multilingual": {
+      "title": "9개 언어 지원",
+      "description": "전 세계 어디서나 사용하세요"
+    },
+    "guides": {
+      "title": "가이드 제공",
+      "description": "플랫폼별 가입/설정 단계별 안내"
+    }
+  },
+  "howItWorks": {
+    "title": "사용 방법",
+    "subtitle": "4단계로 시작하세요",
+    "step1": {
+      "title": "회원가입",
+      "description": "간단한 이메일 가입으로 시작하세요"
+    },
+    "step2": {
+      "title": "계정 연결",
+      "description": "AI 플랫폼 API 키를 안전하게 등록하세요"
+    },
+    "step3": {
+      "title": "쿼터 확인",
+      "description": "대시보드에서 실시간 쿼터를 확인하세요"
+    },
+    "step4": {
+      "title": "알림 수신",
+      "description": "텔레그램으로 실시간 알림을 받으세요"
+    }
+  },
+  "platforms": {
+    "title": "지원 플랫폼",
+    "subtitle": "주요 AI 플랫폼 무료 쿼터 관리",
+    "more": "더 많은 플랫폼 추가 예정"
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "q1": {
+      "question": "내 API 키는 안전한가요?",
+      "answer": "네, 모든 API 키는 Fernet 암호화 방식으로 안전하게 저장됩니다. 언제든지 연결을 해제할 수 있으며, 해제 시 암호화된 데이터가 완전히 삭제됩니다."
+    },
+    "q2": {
+      "question": "약관 위반이 아닌가요?",
+      "answer": "아닙니다. 우리는 사용자 소유 계정 모델을 사용합니다. 사용자가 직접 각 AI 플랫폼에 계정을 만들고, 이 플랫폼에 연결하여 관리합니다. 우리는 절대로 대리 계정을 생성하지 않습니다."
+    },
+    "q3": {
+      "question": "무료인가요?",
+      "answer": "네, MVP 버전은 완전히 무료입니다. 향후 프리미엄 기능을 추가할 수 있지만, 기본 기능은 항상 무료로 제공됩니다."
+    },
+    "q4": {
+      "question": "텔레그램 연동 방법은?",
+      "answer": "1. 텔레그램에서 봇을 찾아 /start 명령을 실행하세요. 2. 봇이 제공하는 연동 코드를 복사하세요. 3. 설정 페이지에서 해당 코드를 입력하세요."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Open Crow. All rights reserved.",
+    "terms": "이용약관",
+    "privacy": "개인정보처리방침",
+    "contact": "문의하기"
+  },
+  "dashboard": {
+    "title": "쿼터 대시보드",
+    "overview": "전체 현황",
+    "totalPlatforms": "전체 플랫폼",
+    "connectedAccounts": "연결된 계정",
+    "overallUsage": "전체 사용률",
+    "recommendations": "추천 플랫폼",
+    "schedule": "오늘의 스케줄",
+    "noAccounts": "연결된 계정이 없습니다. 계정 관리 페이지에서 AI 플랫폼을 연결하세요."
+  },
+  "accounts": {
+    "title": "계정 관리",
+    "addAccount": "계정 추가",
+    "platform": "플랫폼",
+    "status": "상태",
+    "quota": "쿼터",
+    "actions": "작업",
+    "verify": "검증",
+    "delete": "삭제",
+    "verified": "검증됨",
+    "notVerified": "미검증",
+    "modalTitle": "새 계정 추가",
+    "selectPlatform": "플랫폼 선택",
+    "apiKey": "API 키",
+    "apiKeyPlaceholder": "API 키를 입력하세요",
+    "accountIdentifier": "계정 식별자 (선택사항)",
+    "accountIdentifierPlaceholder": "이메일 또는 사용자명",
+    "cancel": "취소",
+    "save": "저장"
+  },
+  "guides": {
+    "title": "플랫폼 가이드",
+    "subtitle": "AI 플랫폼 계정 생성 가이드",
+    "selectPlatform": "플랫폼을 선택하세요",
+    "steps": "단계별 가이드",
+    "tips": "유용한 팁",
+    "quotaInfo": "쿼터 정보",
+    "visit": "방문하기",
+    "apiDocs": "API 문서"
+  },
+  "settings": {
+    "title": "설정",
+    "telegram": {
+      "title": "텔레그램 연동",
+      "connected": "연동됨",
+      "notConnected": "연동 안됨",
+      "chatId": "채팅 ID",
+      "instructions": "텔레그램 봇에서 /start를 실행하고 제공된 코드를 입력하세요"
+    },
+    "language": {
+      "title": "언어",
+      "select": "언어 선택"
+    },
+    "timezone": {
+      "title": "타임존",
+      "select": "타임존 선택"
+    },
+    "notifications": {
+      "title": "알림 설정",
+      "quotaAlerts": "쿼터 리셋 알림",
+      "usageWarnings": "사용량 경고",
+      "dailySummary": "일일 요약",
+      "weeklyReport": "주간 리포트"
+    },
+    "save": "저장"
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "success": "성공적으로 완료되었습니다",
+    "confirm": "확인",
+    "back": "뒤로"
+  }
+}
