@@ -37,13 +37,15 @@ Multiple security vulnerabilities were identified in project dependencies. All v
 
 ### Frontend (npm) Dependencies
 
-#### 4. next (CRITICAL) - UPDATED
-- **Old Version**: 14.1.0 → 14.2.35 (still vulnerable)
-- **New Version**: 15.0.8
+#### 4. next (CRITICAL) - FINAL UPDATE
+- **Old Version**: 14.1.0 → 14.2.35 → 15.0.8 (all vulnerable)
+- **New Version**: 15.2.3
 - **Vulnerabilities Fixed**:
-  - HTTP request deserialization DoS with insecure React Server Components (9 variants)
-  - All CVEs affecting versions 13.0.0 through 14.2.35
-- **Impact**: Critical - DoS vulnerability affecting all 14.x versions
+  - HTTP request deserialization DoS with insecure React Server Components
+  - DoS via cache poisoning (CVE affecting 15.0.4-canary.51 through 15.1.7)
+  - Authorization bypass in middleware (multiple CVEs)
+  - All CVEs affecting versions 13.0.0 through 15.2.2
+- **Impact**: Critical - Multiple DoS and authentication bypass vulnerabilities
 - **Status**: ✅ FIXED
 - **Note**: Requires React 19 (included in update)
 
@@ -119,12 +121,17 @@ After applying these fixes:
 
 All updated dependencies maintain backward compatibility with existing code:
 - FastAPI 0.115.6 is compatible with our existing routers and middleware
-- Next.js 15.0.8 maintains App Router structure (requires React 19)
+- Next.js 15.2.3 maintains App Router structure (requires React 19)
 - React 19 is backward compatible with React 18 patterns used in our code
 - Pydantic 2.10.6 maintains schema definitions
 - All other updates are minor/patch releases
 
 **Important**: Next.js 15 requires React 19, which includes some new features but maintains backward compatibility for the patterns we use (hooks, components, etc.).
+
+**Security Note**: Multiple iterations were required to reach a fully patched version:
+- 14.2.35: Still had DoS vulnerabilities
+- 15.0.8: Fixed some DoS issues but had cache poisoning and auth bypass
+- 15.2.3: All known vulnerabilities patched
 
 ## References
 
