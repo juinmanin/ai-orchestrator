@@ -1,0 +1,113 @@
+{
+  "platforms": [
+    {
+      "id": "openai_free",
+      "name": "ChatGPT Free",
+      "description": "Free tier of ChatGPT with GPT-4o access",
+      "icon": "🤖",
+      "quotas": [
+        {
+          "type": "3hour",
+          "limit": 50,
+          "reset_hours": 3,
+          "unit": "messages",
+          "description": "50 messages per 3 hours with GPT-4o"
+        }
+      ],
+      "signup_url": "https://chat.openai.com/",
+      "api_docs_url": "https://platform.openai.com/docs"
+    },
+    {
+      "id": "gemini_free",
+      "name": "Gemini Free",
+      "description": "Google's Gemini AI free tier",
+      "icon": "💎",
+      "quotas": [
+        {
+          "type": "minute",
+          "limit": 60,
+          "reset_hours": 0.0166,
+          "unit": "requests",
+          "description": "60 requests per minute"
+        },
+        {
+          "type": "daily",
+          "limit": 1500,
+          "reset_hours": 24,
+          "unit": "requests",
+          "description": "1500 requests per day"
+        }
+      ],
+      "signup_url": "https://makersuite.google.com/",
+      "api_docs_url": "https://ai.google.dev/docs"
+    },
+    {
+      "id": "claude_free",
+      "name": "Claude Free",
+      "description": "Anthropic's Claude AI free tier",
+      "icon": "🧠",
+      "quotas": [
+        {
+          "type": "daily",
+          "limit": 30,
+          "reset_hours": 24,
+          "unit": "messages",
+          "description": "30 messages per day"
+        }
+      ],
+      "signup_url": "https://claude.ai/",
+      "api_docs_url": "https://docs.anthropic.com/"
+    },
+    {
+      "id": "leonardo_free",
+      "name": "Leonardo AI Free",
+      "description": "AI image generation free tier",
+      "icon": "🎨",
+      "quotas": [
+        {
+          "type": "daily",
+          "limit": 150,
+          "reset_hours": 24,
+          "unit": "tokens",
+          "description": "150 tokens per day for image generation"
+        }
+      ],
+      "signup_url": "https://leonardo.ai/",
+      "api_docs_url": "https://docs.leonardo.ai/"
+    },
+    {
+      "id": "huggingface_free",
+      "name": "Hugging Face Free",
+      "description": "Free access to Hugging Face models",
+      "icon": "🤗",
+      "quotas": [
+        {
+          "type": "monthly",
+          "limit": 1000,
+          "reset_hours": 720,
+          "unit": "requests",
+          "description": "Limited free inference requests per month"
+        }
+      ],
+      "signup_url": "https://huggingface.co/",
+      "api_docs_url": "https://huggingface.co/docs"
+    },
+    {
+      "id": "cohere_free",
+      "name": "Cohere Free",
+      "description": "Cohere AI free tier",
+      "icon": "🔷",
+      "quotas": [
+        {
+          "type": "monthly",
+          "limit": 1000,
+          "reset_hours": 720,
+          "unit": "calls",
+          "description": "1000 API calls per month"
+        }
+      ],
+      "signup_url": "https://cohere.com/",
+      "api_docs_url": "https://docs.cohere.com/"
+    }
+  ]
+}
