@@ -31,7 +31,7 @@ AI 플랫폼 무료 쿼터를 낭비 없이 최대한 활용할 수 있도록 �
 ### 기술 스택
 
 - **Backend**: Python FastAPI, SQLAlchemy, SQLite
-- **Frontend**: Next.js 14, TypeScript, Tailwind CSS
+- **Frontend**: Next.js 15, React 19, TypeScript, Tailwind CSS
 - **Telegram Bot**: python-telegram-bot, APScheduler
 - **Security**: JWT, bcrypt, Fernet encryption
 - **Deployment**: Docker Compose, Nginx
@@ -184,7 +184,8 @@ python -m bot.main
   - cryptography 46.0.5 (취약점 수정)
   - fastapi 0.115.6 (ReDoS 취약점 수정)
   - python-multipart 0.0.22 (파일 쓰기 취약점 수정)
-  - next 14.2.35 (여러 보안 취약점 수정)
+  - next 15.0.8 (DoS 취약점 수정, React 19 포함)
+  - react 19.0.0 (Next.js 15 필수 요구사항)
 
 **보안 권장사항**: 정기적으로 `SECURITY.md` 파일을 확인하여 보안 업데이트를 적용하세요.
 
@@ -230,7 +231,7 @@ A smart orchestration platform to help users maximize their free AI platform quo
 ### Tech Stack
 
 - **Backend**: Python FastAPI, SQLAlchemy, SQLite
-- **Frontend**: Next.js 14, TypeScript, Tailwind CSS
+- **Frontend**: Next.js 15, React 19, TypeScript, Tailwind CSS
 - **Telegram Bot**: python-telegram-bot, APScheduler
 - **Security**: JWT, bcrypt, Fernet encryption
 - **Deployment**: Docker Compose, Nginx
@@ -383,7 +384,8 @@ Key endpoints:
   - cryptography 46.0.5 (vulnerability fixes)
   - fastapi 0.115.6 (ReDoS vulnerability fix)
   - python-multipart 0.0.22 (file write vulnerability fix)
-  - next 14.2.35 (multiple security vulnerability fixes)
+  - next 15.0.8 (DoS vulnerability fix, includes React 19)
+  - react 19.0.0 (required for Next.js 15)
 
 **Security Recommendation**: Regularly check `SECURITY.md` file for security updates.
 

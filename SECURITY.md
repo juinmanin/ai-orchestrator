@@ -37,17 +37,15 @@ Multiple security vulnerabilities were identified in project dependencies. All v
 
 ### Frontend (npm) Dependencies
 
-#### 4. next (CRITICAL)
-- **Old Version**: 14.1.0
-- **New Version**: 14.2.35
+#### 4. next (CRITICAL) - UPDATED
+- **Old Version**: 14.1.0 → 14.2.35 (still vulnerable)
+- **New Version**: 15.0.8
 - **Vulnerabilities Fixed**:
-  - HTTP request deserialization DoS with insecure React Server Components
-  - Authorization bypass vulnerability
-  - Cache poisoning
-  - Server-Side Request Forgery in Server Actions
-  - Authorization bypass in middleware
-- **Impact**: Critical - Multiple security issues affecting authentication and DoS
+  - HTTP request deserialization DoS with insecure React Server Components (9 variants)
+  - All CVEs affecting versions 13.0.0 through 14.2.35
+- **Impact**: Critical - DoS vulnerability affecting all 14.x versions
 - **Status**: ✅ FIXED
+- **Note**: Requires React 19 (included in update)
 
 ## Additional Updates
 
@@ -60,12 +58,13 @@ Multiple security vulnerabilities were identified in project dependencies. All v
 - **aiosqlite**: 0.19.0 → 0.20.0 (latest stable)
 
 ### Frontend
-- **react**: 18.2.0 → 18.3.1 (latest stable)
+- **react**: 18.2.0 → 19.0.0 (required for Next.js 15)
+- **react-dom**: 18.2.0 → 19.0.0 (required for Next.js 15)
 - **next-intl**: 3.6.0 → 3.26.4 (latest stable)
 - **axios**: 1.6.5 → 1.7.9 (latest stable)
 - **typescript**: 5.3.3 → 5.7.3 (latest stable)
 - **tailwindcss**: 3.4.1 → 3.4.17 (latest stable)
-- **All @types packages**: Updated to latest
+- **All @types packages**: Updated to React 19 compatible versions
 
 ## Testing
 
@@ -120,9 +119,12 @@ After applying these fixes:
 
 All updated dependencies maintain backward compatibility with existing code:
 - FastAPI 0.115.6 is compatible with our existing routers and middleware
-- Next.js 14.2.35 maintains App Router structure
+- Next.js 15.0.8 maintains App Router structure (requires React 19)
+- React 19 is backward compatible with React 18 patterns used in our code
 - Pydantic 2.10.6 maintains schema definitions
 - All other updates are minor/patch releases
+
+**Important**: Next.js 15 requires React 19, which includes some new features but maintains backward compatibility for the patterns we use (hooks, components, etc.).
 
 ## References
 
